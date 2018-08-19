@@ -12,7 +12,7 @@ NUM_CLASSES = 5
 IMAGE_SIZE = 28
 # 画像チャネル(カラーなので3)
 IMAGE_CHANNEL = 3
-# 画像の次元数(100* 100*カラー)
+# 画像の次元数(28 * 28 * カラー)
 IMAGE_PIXELS = IMAGE_SIZE * IMAGE_SIZE * IMAGE_CHANNEL
 # 2x2の畳み込みを二回かけているので全結合層では画像の縦横はそれぞれ1/4になる
 FULL_CONNECTIVE_LAYER_SIZE = int(IMAGE_SIZE / 4)
